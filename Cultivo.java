@@ -1,0 +1,3 @@
+public sealed interface Cultivo permits Banano, Cacao, Arroz {
+    String nombreComun();
+}
